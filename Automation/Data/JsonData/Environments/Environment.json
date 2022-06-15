@@ -1,0 +1,25 @@
+{
+    "Environments": [
+        {
+            "Environment": "Test",
+            "URL": "test.com",
+            "RabbitHostName": "test.local",
+            "RabbitUserName": "guest",
+            "RabbitPassword": "guest"
+        },
+        {
+            "Environment": "Stage",
+            "URL": "stage.com",
+            "RabbitHostName": "stage.local",
+            "RabbitUserName": "guest",
+            "RabbitPassword": "guest"
+        },
+        {
+            "Environment": "Prod",
+            "URL": "prod.com",
+            "RabbitHostName": "prod.local",
+            "RabbitUserName": "guest",
+            "RabbitPassword": "guest"
+        }
+    ]
+}
