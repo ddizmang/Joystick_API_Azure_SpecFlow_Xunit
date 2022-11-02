@@ -1,0 +1,15 @@
+﻿select top 1
+	wkr_firstname as 'worker.firstName',
+	wkr_mi as 'worker.middleInitial',
+	wkr_lastname as 'worker.lastName',
+	wkr_payrolldept as 'worker.payrollDept',
+	wkr_payrollno as 'worker.payrollNumber',
+	wkr_ssn as 'worker.ssn',
+	wkr_id as 'worker.id',
+	wkr_gender as 'worker.gender'
+from workers 
+where wkr_lastname like '%ZZZ%'
+and wkr_payrollno is not null
+and wkr_ssn is not null
+and wkr_gender is not null
+order by 1 desc

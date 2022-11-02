@@ -1,0 +1,332 @@
+{
+    "externalId": 0,
+    "id": 0,
+    "workerBase": {
+        "workerId": 0,
+        "ableToBeAdmissionCoord": "N",
+        "ableToPerformSocRecertEval": "N",
+        "ableToPerformVisits": "Y",
+        "ableToObtainLoginProfile": "N",
+        "address": {
+            "city": "TESTPORT",
+            "county": "",
+            "state": "ME",
+            "street": "658 MAIN ROAD",
+            "zip": "04496",
+            "addressType": "%addressType%"
+        },
+        "advancedBusinessAnalysisLicense": "N",
+        "allowAutoApproveOrders": "N",
+        "allowEmergentPrnOrders": "N",
+        "allowPlanOfCareOrders": "N",
+        "allowRapidReschedule": "N",
+        "allowSignatureOn485PlanOfCare": "N",
+        "careWatchUser": "N",
+        "cellPhone": null,
+        "censusTract": null,
+        "chexId": "",
+        "chexProgram": "N/A",
+        "cityTaxCode": "",
+        "cityTaxTable": "",
+        "comments": "",
+        "commuteMiles": 0,
+        "contractor": null,
+        "dateHired": null,
+        "dateLock": null,
+        "dateTerminated": null,
+        "defaultProdPtg": 1,
+        "dlNumber": "",
+        "dlState": " ",
+        "dob": null,
+        "email": "",
+        "enableSilentGps": "Y",
+        "exempt": "N",
+        "expectedHoursPerPeriod": null,
+        "exportDate": null,
+        "fdbLicense": "N",
+        "federalExempt": null,
+        "federalStatus": null,
+        "firstName": "%firstName%",
+        "fullName": "%fullName%",
+        "fullTime": "N",
+        "gender": "F",
+        "hchbEmployee": "N",
+        "hchbLicenseType": {
+            "active": "Y",
+            "description": "PRN AIDE FIELD",
+            "hchbLicenseTypeId": 5
+        },
+        "homePhone": null,
+        "instantPay": "N",
+        "interactiveVideoAccessEffectiveToDate": null,
+        "interactiveVideoReportingAccess": {
+            "accessId": 0,
+            "description": "No Access"
+        },
+        "isFriInWorkWeek": "Y",
+        "isMonInWorkWeek": "Y",
+        "isSatInWorkWeek": "N",
+        "isSunInWorkWeek": "N",
+        "isThuInWorkWeek": "Y",
+        "isTueInWorkWeek": "Y",
+        "isWedInWorkWeek": "Y",
+        "lastName": "%lastName%",
+        "latitude": null,
+        "latLongMethod": "ADDR_GEO",
+        "longitude": null,
+        "maritalStatus": null,
+        "maxHoursPerDay": null,
+        "maxHoursPerWeek": null,
+        "maxVisitsPerDay": null,
+        "maxVisitsPerWeek": null,
+        "mi": "A",
+        "mileagePayMethod": {
+            "description": "ACTUAL MILEAGE",
+            "methodCode": "AM"
+        },
+        "nickName": "APP",
+        "npi": "",
+        "pager": null,
+        "payLock": null,
+        "payReportedMiles": false,
+        "payrollDepartment": "",
+        "payrollFrequencyId": null,
+        "payrollNumber": "%nameDate%",
+        "payrollStatus": null,
+        "picturePath": "",
+        "primaryJobDescription": {
+            "jobDescriptionId": 2
+        },
+        "primaryWorkerClass": "F",
+        "prodPointsPer8PdoHrs": 7,
+        "productivityPointsPeriod": "W",
+        "r2UserName": "%lastName%",
+        "race": null,
+        "referralName": "",
+        "referralPhone": null,
+        "regHrsPtg": 8,
+        "regularPay": null,
+        "signatureTitle": "AIDE",
+        "ssn": "",
+        "stateExempt": null,
+        "stateStatus": "",
+        "stateTaxCode": "",
+        "stateTaxTable": "",
+        "teamMemberForAssignedBranches": "Y",
+        "templateId": 0,
+        "userInput1": "",
+        "userInput2": "",
+        "userInput3": "AGENT",
+        "whoLock": null,
+        "workerDepartment": null,
+        "workerJobTitle": {
+            "descr": "AIDE",
+            "jobTitleId": 2
+        },
+        "workerReferralCategory": null,
+        "workerStatus": {
+            "descr": "ACTIVE",
+            "id": 1
+        },
+        "workerType": {
+            "descr": "EMPLOYEE",
+            "typeId": 1
+        },
+        "workPhone": null
+    },
+    "workerHomeBranch": {
+        "homeBranch": {
+            "active": "Y",
+            "branchCode": "%branchCode%"
+        },
+        "workerId": 0
+    },
+    "workerLoginProfiles": {
+        "loginProfileList": [],
+        "userName": "%lastName%.%firstName%"
+    },
+    "workerRequestMeta": {
+        "status": "Y",
+        "action": "GetWorker",
+        "matchedOn": "1",
+        "matchedOptions": "1",
+        "errorMessages": [],
+        "displayMessages": [],
+        "tracking": null
+    },
+    "workerServiceLineList": [
+        {
+            "active": "Y",
+            "default": "Y",
+            "serviceLine": {
+                "description": "HOSPICE",
+                "serviceLineId": 2
+            },
+            "workerId": 0,
+            "workerServiceLineId": 1414
+        }
+    ],
+    "workerBranchList": [
+        {
+            "workerBranchId": 0,
+            "workerId": 0,
+            "active": "Y",
+            "branch": {
+                "active": "Y",
+                "branchCode": "%branchCode%"
+            },
+            "payrollBranch": {
+                "active": "Y",
+                "branchCode": "%branchCode%"
+            }
+        }
+    ],
+    "workerTeamList": [
+        {
+            "active": "Y",
+            "default": "Y",
+            "team": {
+                "teamId": 1,
+                "name": "RSL REFERR"
+            },
+            "workerId": 0,
+            "workerTeamId": 0
+        }
+    ],
+    "workerLocationList": [],
+    "workerSkillList": [],
+    "workerQualifierList": [],
+    "workerAltJobDescriptionList": [
+        {
+            "active": "Y",
+            "jobDescription": {
+                "jobDescriptionId": 2
+            },
+            "workerId": 0,
+            "workerJobDescriptionId": 2825
+        }
+    ],
+    "workerPayrollShiftList": [],
+    "workerBasePayrollDetailList": [
+        {
+            "active": "Y",
+            "category": {
+                "categoryCode": "PT",
+                "categoryId": 4,
+                "descr": "PART TIME"
+            },
+            "effectiveFrom": null,
+            "effectiveTo": null,
+            "evaluateProductivity": false,
+            "expectedProductivityPoints": 0.0,
+            "holidayPaymentMethod": null,
+            "minimumHoursPerPersonalDayOff": 0.0,
+            "payHoliday": false,
+            "payOvertime": false,
+            "payProductivityPoints": false,
+            "productivityBonus": false,
+            "productivityPayrollFrequency": {
+                "descr": "WEEKLY",
+                "frequencyId": 2
+            },
+            "productivityPointsPerPersonalDayOff": 5.0,
+            "standardPaymentMethod": {
+                "descr": null,
+                "methodId": 2
+            },
+            "workerBasePayrollDetailId": 838,
+            "workerId": 0
+        }
+    ],
+    "workerRenewableRequirementList": [
+        {
+            "active": "Y",
+            "dueDate": "1999-09-09T00:00:00",
+            "renewableRequirement": {
+                "descr": "CAR INSURANCE",
+                "requirementId": 8
+            },
+            "workerId": 0,
+            "workerRequirementId": 29212
+        },
+        {
+            "active": "Y",
+            "dueDate": "1999-09-09T00:00:00",
+            "renewableRequirement": {
+                "descr": "CPR/BLS CERTIFICATION",
+                "requirementId": 9
+            },
+            "workerId": 0,
+            "workerRequirementId": 29214
+        },
+        {
+            "active": "Y",
+            "dueDate": "1999-09-09T00:00:00",
+            "renewableRequirement": {
+                "descr": "DRIVER'S LICENSE RENEWAL",
+                "requirementId": 10
+            },
+            "workerId": 0,
+            "workerRequirementId": 29213
+        },
+        {
+            "active": "Y",
+            "dueDate": "1999-09-09T00:00:00",
+            "renewableRequirement": {
+                "descr": "PROFESSIONAL LICENSURE",
+                "requirementId": 23
+            },
+            "workerId": 0,
+            "workerRequirementId": 29216
+        },
+        {
+            "active": "Y",
+            "dueDate": "1999-09-09T00:00:00",
+            "renewableRequirement": {
+                "descr": "TB SCREENING",
+                "requirementId": 26
+            },
+            "workerId": 0,
+            "workerRequirementId": 29215
+        }
+    ],
+    "workerLicenseList": [],
+    "workerScheduling": {
+        "workerId": 0,
+        "workerSchedulingAddress": {
+            "addressMapped": "Y",
+            "city": "PORT HURON",
+            "county": "ST CLAIREEE",
+            "state": "MI",
+            "street": "1000 MAIN ST.",
+            "zip": "48069",
+            "latitude": -89.255,
+            "longitude": 100.9766,
+            "latLongMethod": "WORKDAY"
+        },
+        "workerAvailabilityList": [],
+        "workerUnavailabilityList": []
+    },
+    "workerPointCareInteractiveVideoCurriculumList": [
+        {
+            "interactiveVideoCurriculum": {
+                "id": 13
+            },
+            "workerId": 0,
+            "workerInteractiveVideoCurriculumId": 38401
+        }
+    ],
+    "workerClinicalInteractiveVideoCurriculumList": [
+        {
+            "interactiveVideoCurriculum": {
+                "id": 121
+            },
+            "workerId": 0,
+            "workerInteractiveVideoCurriculumId": 38403
+        }
+    ],
+    "workerUserName": "",
+    "workerPassword": "",
+    "workerMustChangePasswordAtNextLogon": false,
+    "pointCareConfig": null
+}

@@ -1,0 +1,13 @@
+﻿select top 1
+	coa.o_id as 'OrderId',
+	coa.o_epiid as 'EpisodeId',
+	cea.epi_mrnum as 'MRN',
+	cea.epi_branchcode as 'BranchCode'
+from client_orders_all coa
+inner join client_episodes_all cea
+on coa.o_epiid = cea.epi_id
+where 
+coa.o_approvedby is not null
+and coa.o_sendtophysician = 'Y'
+and cea.epi_slid = %serviceLineId%
+order by 1 desc

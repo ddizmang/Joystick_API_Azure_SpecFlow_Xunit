@@ -1,0 +1,2 @@
+﻿INSERT INTO dbo.VENDOR_TRANSACTIONS (vt_TransactionDate,vt_EntityId,vt_vteid,vt_vid,vt_vitid,vt_vtpid,vt_username,vt_Epiid)
+VALUES( GETDATE(),%orderId%,9,334,%vt_vitid%,'N','AUTOMATION',%episodeId%)

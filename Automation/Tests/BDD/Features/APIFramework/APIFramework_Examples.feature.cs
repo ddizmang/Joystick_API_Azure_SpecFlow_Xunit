@@ -256,7 +256,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("api url https://api.twitter.com", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 45
- testRunner.And("header Authorization = Basic AADFDVSOUWERNDLLIKWEURHN", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("header Authorization = Basic ABCDEFGHI", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 46
  testRunner.And("header Content-Type = application/x-www-form-urlencoded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

@@ -4,19 +4,19 @@ namespace Automation.Domain.Enums
 {
     public enum Environment
     {
-        [Description("FB1")]
-        FB1,
-        [Description("FB2")]
-        FB2,
-        [Description("FB3")]
-        FB3,
-        [Description("Test")]
-        Test,
-        [Description("Stage")]
-        Stage,
-        [Description("Prod_Gold")]
-        Production_Gold,
-        [Description("Prod")]
-        Production
+        [Description("DEV")]
+        DEV,
+        [Description("QA-TOO-PERSONAL-QA2")]
+        QATOOPERSONAL,
+        [Description("QA-ODD")]
+        QAODD,
+        [Description("QA-EVEN")]
+        QAEVEN,
+        [Description("QA-HOTFIX")]
+        QAHOTFIX,
+        [Description("STAGING")]
+        STAGING,
+        [Description("PROD")]
+        PROD
     }
 }

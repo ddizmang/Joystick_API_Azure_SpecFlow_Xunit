@@ -1,0 +1,5 @@
+{
+    "payrollNumber": "%payrollNumber%",
+    "stagingId": "%stagingId%",
+    "action": "FindWorker"
+}

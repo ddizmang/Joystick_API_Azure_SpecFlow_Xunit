@@ -1,0 +1,30 @@
+{
+    "active": "Y",
+    "basePayRate":  %basePayRate%, 
+    "category": {
+        "categoryCode": "PT",
+        "categoryId": 4,
+        "descr": "PART TIME"
+    },
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "evaluateProductivity": false,
+    "expectedProductivityPoints": 0.0,
+    "holidayPaymentMethod": null,
+    "minimumHoursPerPersonalDayOff": 0.0,
+    "payHoliday": false,
+    "payOvertime": false,
+    "payProductivityPoints": false,
+    "productivityBonus": false,
+    "productivityPayrollFrequency": {
+        "descr": "WEEKLY",
+        "frequencyId": 2
+    },
+    "productivityPointsPerPersonalDayOff": 5.0,
+    "standardPaymentMethod": {
+        "descr": null,
+        "methodId": 2
+    },
+    "workerBasePayrollDetailId": 838,
+    "workerId": 0
+}

@@ -10,12 +10,13 @@
     <PackageReference Include="Epoch.net" Version="3.0.41" />
     <PackageReference Include="ExtentReports.Core" Version="1.0.3" />
     <PackageReference Include="FluentAssertions" Version="6.7.0" />
+    <PackageReference Include="Galkam.HL7Enumerator" Version="1.2.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
     <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.14" />
     <PackageReference Include="SpecFlow" Version="3.9.74" />
-    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.74" />
     <PackageReference Include="SpecFlow.xUnit" Version="3.9.74" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+    <PackageReference Include="System.Xml.XPath.XDocument" Version="4.3.0" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -40,8 +41,59 @@
     <None Update="Data\JsonData\ApiData\Swagger\JsonSchema\SwaggerPetstore_POST_pet_schema_fail.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\BASE_CreateWorker.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\BASE_UpdateWorker.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\BASE_workerBasePayrollDetailList_withoutBasePayRate.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\BASE_workerBasePayrollDetailList_withBasePayRate.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\FindClient_ByFirstNameLastNameAndSSN.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\FindClient_ByWorkerId.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\FindClient_ByPayrollNumberAndStagingId.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\SearchClient_InvalidGenderPropName.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\SearchClient_ByFirstNameLastNameAndGender.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\SearchClient_BySSN.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\JsonData\ApiData\WorkerService_v2_JSON\JsonRequest\SearchClient_ByPayrollNumber.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Data\JsonData\Environments\Environment.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\SQLData\StockOutboundOMP\VENDOR_TRANSACTIONS_InsertOrder.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\SQLData\StockOutboundORU\GetClientInformation_ByBranchNameAndSLID.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\SQLData\StockOutboundORU\VENDOR_TRANSACTIONS_GetDataByEpisodeAndEntityIdAndUser.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\SQLData\StockOutboundORU\VENDOR_TRANSACTIONS_InsertOrder.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\SQLData\WorkerService_v2_JSON\GetWorkerInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\XmlData\TestFiles\TEST_Students.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

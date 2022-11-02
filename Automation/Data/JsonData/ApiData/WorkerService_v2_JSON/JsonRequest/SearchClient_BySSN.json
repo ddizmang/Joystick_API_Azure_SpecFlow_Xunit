@@ -1,0 +1,9 @@
+{
+    "firstName": null,
+    "lastName": null,
+    "dob": null,
+    "gender": null,
+    "payrollDepartment": null,
+    "payrollNumber": null,
+    "ssn": "%ssn%"
+}

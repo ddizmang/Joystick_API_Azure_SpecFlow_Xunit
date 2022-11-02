@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using Automation.Domain.Operations;
 
 namespace Automation.Data.JsonData.Environments
@@ -7,9 +8,21 @@ namespace Automation.Data.JsonData.Environments
     {
         public string Environment { get; set; }
         public string URL { get; set; }
-        public string RabbitHostName { get; set; }
-        public string RabbitUserName { get; set; }
-        public string RabbitPassword { get; set; }
+        public string DBConnectionString { get; set; }
+        public string IDPAuthUrl { get; set; }
+        public string IDPGrantType { get; set; }
+        public string IDPClientId { get; set; }
+        public string IDPScope { get; set; }
+        public string IDPResourceSecurityId { get; set; }
+        public string IDPAgencySecret { get; set; }
+        public string WorkerV3LocalURL { get; set; }
+        public string WorkerV3BaseId { get; set; }
+        public int HL7FileWaitTime_Global { get; set; }
+        public string HL7FilePrefix_Global { get; set; }
+        public int XMLFileWaitTime_Global { get; set; }
+        public string XMLFilePrefix_Global { get; set; }
+        public string StockOutboundORU_DropLoc { get; set; }
+
         public List<Environments> GetEnvironmentDetails()
         {
             List<Environments> allEnvironments = null;

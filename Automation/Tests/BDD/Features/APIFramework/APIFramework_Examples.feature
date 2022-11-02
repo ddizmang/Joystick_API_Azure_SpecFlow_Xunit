@@ -42,7 +42,7 @@ Scenario: API_Framework_VerifyLukeInformationWithVariables
 # NOTE: Test is not operational and is used as documentation only. you will need to replace with your Authorization Token and form content from twitter
 Scenario: Bearer_Token_Documentation
 	Given api url https://api.twitter.com
-	And header Authorization = Basic AADFDVSOUWERNDLLIKWEURHN
+	And header Authorization = Basic ABCDEFGHI
 	And header Content-Type = application/x-www-form-urlencoded
 	And form content grant_type value client_credentials
 	# Additional form fields would be need to be added

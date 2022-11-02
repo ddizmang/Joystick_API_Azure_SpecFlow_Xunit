@@ -1,0 +1,12 @@
+﻿select top 1 
+	vt_vid as 'vendorId',
+	vt_vtpid as 'processId',
+	coalesce(vt_ProcessedDate, '') as 'processDate',
+	vt_username as 'vendor_userName',
+	coalesce(vt_sessionID, '') as 'sessionId',
+	coalesce(vt_StatusMessage, '') as 'statusMessage'
+from VENDOR_TRANSACTIONS 
+where vt_Epiid = %episodeId% 
+and vt_entityid = %orderId% 
+and vt_username = 'AUTOMATION' 
+order by vt_id desc
