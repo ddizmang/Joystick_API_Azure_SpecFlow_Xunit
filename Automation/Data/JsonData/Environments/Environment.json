@@ -11,7 +11,7 @@
             "IDPResourceSecurityId": "uF5HHBBylOK5BZLV",
             "IDPAgencySecret": "03xfEAENgcMWIBC/ebPJEogH40WJYcwM",
             "WorkerV3LocalURL": "https://workerservicev2-interop.k8s-dev.hchb.local/api/v1",
-            "WorkerV3BaseId": "34436",
+            "WorkerV3BaseId": "11111",
             "HL7FileWaitTime_Global": 0,
             "HL7FilePrefix_Global": "",
             "XMLFileWaitTime_Global": 0,
